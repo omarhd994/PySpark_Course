@@ -1,4 +1,4 @@
-# List files in the given path to check the JSON file
+# List files in the given path to check the JSON file on Databricks
 dbutils.fs.ls('/FileStore/tables/drivers.json/')
 
 # Read a JSON file with automatic schema inference
